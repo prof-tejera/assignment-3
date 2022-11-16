@@ -38,7 +38,7 @@ If for any reason your workout app errors out, then you should handle this and p
 ## Grading Rubric
 We will be grading based on the features listed above and overall code quality
 - Persisting state (20pt)
-- Workout history (10pt)
+- Workout history (20pt)
 - Edit a timer (10pt)
 - Change the order of a timer in configured workout (10pt)
 - Display total time (10pt)
