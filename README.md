@@ -42,8 +42,8 @@ We will be grading based on the features listed above and overall code quality
 - Edit a timer (10pt)
 - Change the order of a timer in configured workout (10pt)
 - Display total time (10pt)
-- Add description to each timer (10pt)
-- Wrap app using react-error-boundary (10pt)
+- Add description to each timer (5pt)
+- Wrap app using react-error-boundary (5pt)
 - DRY and overall code quality (20pt)
 
 ### Deployment Instructions (GH actions)
