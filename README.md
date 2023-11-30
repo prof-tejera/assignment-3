@@ -4,13 +4,9 @@ Now that we have our basic workout app working (A2) we are going to build out mo
 
 ## List of new features 
 
-### Persisting state
+### Persisting state (Only Graduate)
 
 Our workout app has a pretty big problem, when the user refreshes the page we lose all configuration. We want to solve this by persisting state, so that if the page is reloaded or closed accidentally, we can restore the user to the same state. I like to think of it as we have two separate chunks of state we want to store. The first is the initial timer configuration and the second is the running state. For the timer configuration state we can store this in the URL. As the user changes the configuration, we want to update the url. We should only do this when the user has added/removed/moved the timer from configuration. We recommend that you don't update URL every time they enter an input, but instead have some sort of save button that would sync URL. Once the user has configured the workout and started the workout, we want to store the running state in local storage. We don't want to be doing a million writes to local storage, so I recommend that you think about how we can accomplish this with fewer writes. It doesn't have to restore to the latest millisecond, but it should be somewhat close (5-10 seconds) to what the workout was at after a reload/refresh of the page.
-
-### Workout history 
-
-We want to create a new screen that displays a list of previous workouts (create a new route and link to the history page in the navbar). ***Once a workout has been completed, add this workout to the history and save it to local storage***. On the new history screen display all workouts completed and for each workout you should display some summary of all timers run and what the durations/rounds for each timer was.
 
 ### Edit a timer
 
@@ -31,6 +27,11 @@ Add a description field to each time that the user can add when creating the tim
 ### Wrap app using react-error-boundary
 
 If for any reason your workout app errors out, then you should handle this and present the user with an error message. `react-error-boundary` package has a nice implementation of react "error boundaries" that you can use to handle this scenario.
+
+### BONUS: Workout history 
+
+We want to create a new screen that displays a list of previous workouts (create a new route and link to the history page in the navbar). ***Once a workout has been completed, add this workout to the history and save it to local storage***. On the new history screen display all workouts completed and for each workout you should display some summary of all timers run and what the durations/rounds for each timer was.
+
 
 ## Deliverables
 - Complete all features listed above
