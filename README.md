@@ -14,7 +14,7 @@ After the workout has been configured and the user is on the main run workout sc
 
 ### Change the order of a timer in configured workout
 
-After the workout has been configured and the user is on the main run workout screen, the user can move any timer to a different position in the queue. This can be done a couple of ways. You are welcome to use a drag and drop third party package or come up with something on your own (remember to update URL).
+After the workout has been configured and the user is on the main run workout screen, the user can move any timer to a different position in the queue. This can be done a couple of ways. You are welcome to use a drag and drop third party package or come up with something on your own (remember to update URL). The user should also be able to remove a timer from the queue.
 
 ### Display total time 
 
